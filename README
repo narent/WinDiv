@@ -1,0 +1,10 @@
+WinDiv window resizing utility
+==============================
+Simple tool to resize a window with a grid.
+
+To Run:
+Build and double click on WinDiv.exe.
+Click the window you would like to resize and hit the global hotkey Alt+F1 to bring up the resizing window.
+Click and drag mouse across grid to get the desired size. Let go of the mouse button and the window will be resized.
+Hit Escape to close resizing window.
+To close the application, right click on grid icon in the system tray and choose exit.
