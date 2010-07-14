@@ -1,0 +1,8 @@
+﻿<Window x:Class="WinDiv.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize" WindowState="Minimized" ShowInTaskbar="False" Visibility="Hidden" Deactivated="Window_Deactivated" KeyUp="Window_KeyUp">
+    <Grid Name="ctlSizeGrid" Width="400" Background="#7F808080" ShowGridLines="False" >
+      
+    </Grid>
+</Window>
