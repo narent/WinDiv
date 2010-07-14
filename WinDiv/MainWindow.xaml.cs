@@ -12,6 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Runtime.InteropServices;
+using System.IO;
 
 namespace WinDiv
 {
@@ -45,11 +46,12 @@ namespace WinDiv
         {
             InitializeComponent();
             System.Windows.Forms.NotifyIcon notifyIcon = new System.Windows.Forms.NotifyIcon();
-            notifyIcon.Icon = new System.Drawing.Icon(@"C:\Users\ntumkur\Documents\Development\WinDiv\WinDiv\favicon.ico");
+            notifyIcon.Icon = WinDiv.Properties.Resources.Grid;
             notifyIcon.Visible = true;
             notifyIcon.ContextMenu = new System.Windows.Forms.ContextMenu();
             var menuItem = new System.Windows.Forms.MenuItem("Exit");
             notifyIcon.ContextMenu.MenuItems.Add(menuItem);
+            notifyIcon.Text = "WinDiv";
             menuItem.Click += new EventHandler(menuItem_Click);
 
             // Set the height and width of this window in proportion to the screen dimensions
